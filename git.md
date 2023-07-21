@@ -23,14 +23,9 @@
 ### Настройте Git командами:
 $ git config --global user.name "ваше имя или ник латиницей" 
 $ git config --global user.email ваша электронная почта 
-
-Убедитесь, что данные сохранились, с помощью одной из двух команд.
-
-```$ cat ~/.gitconfig```
-```$ git config --list```
 ---
 ### Инициализация репозитория
-```git init``` (от англ. initialize, «инициализировать») — инициализируй репозиторий.
+```git init``` (от англ. initialize, «инициализировать») — инициализируй репозиторий. Создание репозитория в папке.
 
 ## Синхронизация локального и удалённого репозиториев
 ```git remote add origin https://github.com/YandexPracticum/first-project.git``` (от англ. remote, «удалённый» + add, «добавить») — привяжи локальный репозиторий к удалённому с URL https://github.com/YandexPracticum/first-project.git;
